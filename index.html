@@ -8,8 +8,21 @@
     <link rel="stylesheet" href="assets/css/stylings.css">
 </head>
 <body>
-    
+    <header>
+        <a href="highscores.html">View High Scores</a>
+        <div>Time Left: <span id="timer"></span></div>
+    </header>
+    <main id="content-wrapper" class="content-wrapper text-center">
+        <h1 id ="question" class="question">
+            Coding Knowledge Assessment
+        </h1>
+        <div id="answers" class="answers">
+            Welcome! Got a selection of good questions about JavaScript for you. Answer them within the time limit. Incorrect answers will cost you 15 seconds. The time left is your final score. Good luck!
+        </div>
+        <footer id="footer">
+            <button id="start-quiz" class="submit-btn" type="submit">Start Quiz</button>
+        </footer>
+    </main>
     <script src="assets/js/script.js"></script>
-    
 </body>
 </html>

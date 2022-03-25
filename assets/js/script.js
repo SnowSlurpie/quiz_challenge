@@ -1,0 +1,11 @@
+var quizWrapper = document.querySelector("#content-wrapper");
+var question = document.querySelector("#question");
+var answers = document.querySelector("#answers");
+var footer = document.querySelector("#footer");
+var startButton = document.getElementById("start-quiz");
+var answerResult = document.createElement("div");
+answerResult.setAttribute("class", "answer-result");
+var questionCounter = 0;
+var startTime = 60;
+var time = startTime;
+var timer = document.getElementById("timer");
