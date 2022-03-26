@@ -4,4 +4,4 @@ This project utilizes HTML, CSS and Javascript.
 
 The website required to view this project is located <a href="https://snowslurpie.github.io/quiz_challenge/" target="_blank"> here</a>
 
-<img src="images/quiz.png" alt="quiz screenshot">
+<img src="assets/images/quiz.png" alt="quiz screenshot">
