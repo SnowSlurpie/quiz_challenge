@@ -1,4 +1,4 @@
-var takeQuizBtn = document.getElementById("start-quiz");
+var takeQuizBtn = document.getElementById("take-quiz");
 var clearScoresBtn = document.getElementById("clear-scores");
 var highScoresObj = localStorage.getItem("JSQuizHighScores");
 var highScores = document.getElementById("answers");
